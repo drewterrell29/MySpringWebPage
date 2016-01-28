@@ -12,10 +12,19 @@ public class TestController {
 		
 		MyController controller = new MyController();
 		
-		int myNumber = controller.MyFavoriteNumber();
+		int myNumber = controller.myFavoriteNumber();
 		
 		assertEquals(myNumber,24);
+	}
+	
+	@Test
+	public void testMyFavoriteColor() {
 		
+		MyController contr = new MyController();
+		
+		String color = contr.myFavoriteColor();
+		
+		assertEquals(color,"Blue");
 	}
 
 }

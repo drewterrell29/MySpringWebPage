@@ -11,8 +11,13 @@ public class MyController {
 	}
 
 
-	public int MyFavoriteNumber() {
+	public int myFavoriteNumber() {
 		
 		return 24;
+	}
+	
+	public String myFavoriteColor() {
+		
+		return "Blue";
 	}
 }
