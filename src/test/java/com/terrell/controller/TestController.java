@@ -9,6 +9,7 @@ public class TestController {
 	@Test
 	public void testMyFavoriteNumber() {
 		
+		//This test ensures the favorite number is correct
 		
 		MyController controller = new MyController();
 		
